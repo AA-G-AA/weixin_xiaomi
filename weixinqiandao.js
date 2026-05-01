@@ -1,6 +1,6 @@
 auto.waitFor();
 toast("脚本开始运行");
-// 1. 唤醒屏幕
+// 1. 唤醒屏幕1
 if(!device.isScreenOn()){
     device.wakeUp(); // 强制唤醒
     // 2. 【关键】等待屏幕完全亮起，系统加载锁屏界面
